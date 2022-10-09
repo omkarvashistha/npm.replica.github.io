@@ -29,10 +29,6 @@ body{
 
 }
 
-ol{
-    list-style: none;
-}
-
 .top_menu_options{
     display: flex;
     list-style: none;
@@ -43,8 +39,268 @@ ol{
 
 .top_menu_options li{
     font-size: 14px;
+    font-weight: 900;
     font-family: 'Poppins';
     margin-right: 30px;
     justify-content: end;
 }
+/*----------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
 
+.second_top_bar{
+    height:100px;
+    padding:10px; 
+    display: flex;   
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.npm_logo{
+    font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+}
+
+.search_bar_part{
+    display: flex;
+    width: 70%;
+    height:75%;
+    align-items: center;
+    margin-top:10px;
+}
+
+.inside_search_bar{
+    display: flex;
+    align-items: center;
+    width:90%;
+    height: 100%;
+    padding-left: 10px;
+    background-color: #f2f2f2;
+}
+
+.search_icon{
+    color:#cacaca;
+    margin-right: 10px;
+}
+
+.search_bar{
+    margin-left: 5px;
+    font-family: "Fira Mono", "Andale Mono", "Consolas", monospace;
+    width:95%;
+    font-size: 16px;
+    background: transparent;
+    border: 0px;
+}
+
+.search_button{
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    width: 10%;
+    height: 100%;
+    font-weight: 900;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins';
+}
+
+.login_part{
+    display: flex;
+    align-items: center;        
+    width: 15%;
+    margin:0px 10px;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.sign_up{
+    border: 1px grey solid;
+    height: 60%;
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign_in{
+    
+    display: flex;
+    height: 60%;
+    width:50%;
+    align-items: center;
+    justify-content: center;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+.body_first{
+    background-image: linear-gradient( 270deg, rgba(176, 42, 42, .16) 0%, rgba(176, 42, 42, .56) 18.45%, rgba(176, 42, 42, .8) 49.67%, rgba(176, 42, 42, .56) 82.52%, rgba(176, 42, 42, .196364) 99.7%, rgba(189, 40, 40, 0) 99.71%, rgba(203, 56, 55, 0) 99.72%, rgba(203, 56, 55, .16) 99.73%),url("https://static.npmjs.com/abf53a31b2da4657a1a004ee9358551c.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:845px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    padding-top:20px
+    
+}
+
+.body_first_text_first{
+    padding-top:20px;
+    margin-top:53.6px;
+    width:50%;
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    font-family: 'Poppins','sans-serif';
+    font-weight: bold;
+}
+
+.text_one{
+    margin:29.88px 0px;
+    font-size: 16px;
+    font-family: 'Poppins';
+    color: white;
+    text-align: center;
+    width: 40%;
+}
+
+.body_first_text_second{
+    width:40%;
+    margin:29.88px 0px;
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    font-family: 'Poppins','sans-serif';
+    font-weight: bold;
+    
+}
+
+.text_two{
+    margin:29.88px 0px;
+    font-size: 16px;
+    font-family: 'Poppins';
+    color: white;
+    text-align: center;
+    width: 40%;
+}
+
+.body_first_btns{
+    display: flex;
+    justify-content: space-around;
+    width:50%;
+    margin:29.88px 0px;
+}
+
+.sign_up_btn{
+    background-color: #ffc329;
+    width: 240px;
+    height: 56px;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: 'Poppins';
+    border-radius: 50px;
+    border:0px solid;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 40%);
+}
+
+.learn_about_btn{
+    background-color:#cb3837;
+    width: 240px;
+    height: 56px;
+    font-size: 16px;
+    font-family: 'Poppins';
+    color:white;
+    border-radius: 50px;
+    border:2px solid white;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 40%)
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+.body_second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Poppins';
+}
+
+.body_second_img{
+    width: 109px;
+    height: 100px;
+    margin-top: 50px;
+}
+
+.body_second_h2_text{
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin: 28px 0px;
+    width: 512px;
+}
+
+.body_second_text{
+    font-size: 16px;
+    text-align: center;
+    margin: 28px 0px;
+    width: 512px;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+.body_three{
+    background-image: linear-gradient(270deg, rgba(176, 42, 42, .16) 0%, rgba(176, 42, 42, .56) 18.45%, rgba(176, 42, 42, .8) 49.67%, rgba(176, 42, 42, .56) 82.52%, rgba(176, 42, 42, .196364) 99.7%, rgba(189, 40, 40, 0) 99.71%, rgba(203, 56, 55, 0) 99.72%, rgba(203, 56, 55, .16) 99.73%), url("https://static.npmjs.com/3dc2ca3d2e53fc894b904d917cf90015.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Poppins';
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:64px 16px;
+}
+
+.body_three_h2_text{
+    font-weight: 900;    
+    font-size: 48px;
+    margin: 28px 0px;
+}
+
+.body_three_text{
+    font-size: 16px;
+    text-align: center;
+    width:512px;
+    margin: 28px 0px;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+.body_four{
+    font-family: 'Poppins';
+    color: black;
+    padding:64px 16px 32px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.body_four h2{
+    margin:28px 0px;
+    font-size: 32px;
+    width:512px;
+}
