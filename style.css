@@ -304,3 +304,102 @@ body{
     font-size: 32px;
     width:512px;
 }
+
+@media (max-width : 1150px) {
+    .body_first_text_first{
+        width : 70%;
+        padding-top: 0;
+        font-size: 8rem;
+    }
+}
+
+
+@media (max-width : 990px) {
+
+    .login_part{
+        font-size:1rem;
+    }
+
+    .body_first_text_first{
+        width : 70%;
+        padding-top: 0;
+        font-size: 5rem;
+    }
+
+    .search_bar_part{
+        width:40%;
+    }
+
+    .search_button {
+        width : 30%;
+    }
+
+    .body_first_text_second{
+        width:70%;
+        margin-top: 1%;
+    }
+
+    .body_first_btns{
+        width:70%;
+        justify-content: space-between;
+    }
+
+    .body_first_btns button{
+        width:40%;
+    }
+
+}
+
+@media (max-width : 600px) {
+
+    .top_menu_options{
+        width:25%;
+    }
+
+    .top_menu_options li{
+        width:40%;
+        font-size: 1.2rem;
+    }
+
+    .login_part{
+        font-size:0.8rem;
+    }
+
+    .body_first_text_first{
+        width : 90%;
+        padding-top: 0;
+        font-size: 4rem;
+    }
+
+    .body_first_text_second{
+        width:90%;
+        margin-top: 1%;
+    }
+
+    .text_one{
+        margin-top: 1%;
+    }
+
+    .text_two{
+        width:90%;
+    }
+
+    .body_first_btns{
+        width:80%;
+        justify-content: space-evenly;
+    }
+
+    .body_first_btns button{
+        width:40%;
+    }
+
+    .body_second_text{
+        width:80%;
+        font-size : 1.5rem;
+    }
+
+    .body_three_text{
+        width:80%;
+        font-size : 1.5rem;
+    }
+}
